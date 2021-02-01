@@ -22,6 +22,25 @@ body {
     font-size: 15px;
 }
 
+header {
+    margin: 40px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.header-1,
+header p {
+    font-weight: 200;
+}
+
+.header-2 {
+    font-weight: 600;
+}
+
+header p {
+    margin-top:30px
+}
+
 .features {
     display: grid;
     grid-gap: 30px;
@@ -30,7 +49,6 @@ body {
     grid-template-rows: repeat(4, 1fr);
     margin: auto;
     max-width: 1180px;
-
 }
 
 .card {
