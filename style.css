@@ -22,6 +22,10 @@ body {
     font-size: 15px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 header {
     margin: 40px auto;
     max-width: 500px;
@@ -38,7 +42,7 @@ header p {
 }
 
 header p {
-    margin-top:30px
+    margin-top:20px
 }
 
 .features {
@@ -55,7 +59,7 @@ header p {
     border-radius: 10px;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2);
     justify-self: center;
-    max-height: 225px;
+    height: 250px;
     max-width: 345px;
     overflow: hidden;
     padding: 25px;
@@ -73,7 +77,8 @@ header p {
 }
 
 .card img {
-    margin-left: 220px;
+    margin-left: 230px;
+    margin-top: 30px;
     scale: 0.8;
 }
 
